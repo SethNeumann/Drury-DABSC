@@ -1,33 +1,16 @@
-# REPO NAME: EagleTemplate-new
-## License: CERN Open Hardware Licence v1.2
+# REPO NAME: Drury-DABSC
 ## License: Creative Commons Attribution-NonCommercial-ShareAlike
 
-Delete one of the license lines above, and replace this line and following with the contents of the doc.md file
-
-### How to use this template:
-
-  1. Create a repo using this template, 
-  2. Use eagle to create your project
-  3. Edit the other text files to describe your project
-  4. git add .
-  5. git commit -m "add to git"
-  6. git tag -a 1.0 -m 1.0
-  7. git push origin 1.0
+Dennis Drury designed the Dual ABS Controller (DABSC) as a simple solution for ABS.  
   
+The Dual ABS Signal Controller provides a simple, no software, solution for the modeler looking for a prototypical Automatic Block Signaling (ABS) system.
+This board provides signal control for two blocks of 3 aspect (Green - Yellow - Red) route signaling for two blocks.  
+The Dual ABS Signal Controller can be used in either single track (1 segment for each signaled direction) or double track (Rule 251, Current of Traffic)
+applications.
 
-This is a template for new eagle designs.
-It includes a blank schematic with a title block ready for editing and a
-default PCB that uses the SPCoast.lbr's BOARD component, Fiducials and an OSHW logo.
+This is an excellent product for modular and sectional railroads as well as permanent applications.  We recommend our cpOD (screw terminal option) detector
+for detection input. The Dual ABS Signal Controller is NOT MSS compatible.
 
-First line: A short description of the project, used as a subtitle or tagline
-
-Remaining lines: a verbose changelog of what makes this "git version" different from the last.
-Use this space (in Markdown format) to describe the context and details of the changes.
-This section should be 5 to 20 lines of interesting detail; each version tab in the project will 
-display this text to help the reader understand why this version is differnet...
-
-The published project on the SPCoast.github.io website will
-include the relevant git commit messages as a terse, high level
-changelog, so don't replicate those messages here.
-
-
+This board is designed and supported by Dennis Drury, a former Southern Pacific Signal Maintainer and the design has given him good service for 30 years!
+See Dennis' clinic from the 2017 PCR Convention on the development of this board on the www.modelrailroadcontrolsystems.com sitte under Simple Signaling 
+and accessories
