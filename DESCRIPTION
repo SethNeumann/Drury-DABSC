@@ -1,11 +1,9 @@
-First line: A short description of the project, used as a subtitle ot tagline
+A revised version of Dennis Drury's Dual ABS Signal Controller
 
-Remaining lines: a verbose changelog of what makes this "git version" different from the last.
-Use this space (in Markdown format) to describe the context and details of the changes.
-This section should be 5 to 20 lines of interesting detail; each version tab in the project will 
-display this text to help the reader understand why this version is differnet...
-
-The published project on the SPCoast.github.io website will
-include the relevant git commit messages as a terse, high level
-changelog, so don't replicate those messages here.
-
+Dennis used to build these himself but has moved on to Arduino based alternatives
+however there is a market for people who don't want micro controllers.  This revision
+brings the design into my parts master and reduces the parts count.
+- replace the 6 discrete resistors with a DIP pack (I used 1K resistors so this is just 6
+resistors in a pack --actually 7 1 isn't used
+- replace the axial cap with a radial to conform to my parts master and save some space
+- Use ground and power planes to simplify layout and add distributed capacitance
