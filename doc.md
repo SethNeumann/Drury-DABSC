@@ -1,10 +1,13 @@
-### How to use this template:
-
-  1. Create a repo using this template, 
-  2. Create your project content using eagle...
-  3. Edit the other text files to describe your project
-  4. git add .
-  5. git commit -m "add to git"
-  6. git tag -a 1.0 -m 1.0
-  7. git push origin 1.0
+Dennis Drury designed the Dual ABS Controller (DABSC) as a simple solution for ABS.  
   
+The Dual ABS Signal Controller provides a simple, no software, solution for the modeler looking for a prototypical Automatic Block Signaling (ABS) system.
+This board provides signal control for two blocks of 3 aspect (Green - Yellow - Red) route signaling for two blocks.  
+The Dual ABS Signal Controller can be used in either single track (1 segment for each signaled direction) or double track (Rule 251, Current of Traffic)
+applications.
+
+This is an excellent product for modular and sectional railroads as well as permanent applications.  We recommend our cpOD (screw terminal option) detector
+for detection input. The Dual ABS Signal Controller is NOT MSS compatible.
+
+This board is designed and supported by Dennis Drury, a former Southern Pacific Signal Maintainer and the design has given him good service for 30 years!
+See Dennis' clinic from the 2017 PCR Convention on the development of this board on the www.modelrailroadcontrolsystems.com sitte under Simple Signaling 
+and accessories
