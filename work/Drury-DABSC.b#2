@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="25" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="12.5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -161,11 +161,11 @@
 <wire x1="47.93" y1="0" x2="47.93" y2="48.25" width="0" layer="20"/>
 <wire x1="47.93" y1="48.25" x2="0" y2="48.25" width="0" layer="20"/>
 <wire x1="0" y1="48.25" x2="0" y2="0" width="0" layer="20"/>
-<text x="45.72" y="10.16" size="1.4224" layer="25" font="vector" rot="R90">RamDen Enterprises/MRCS</text>
+<text x="45.72" y="8.89" size="1.778" layer="25" rot="R90">RamDen Enterprises/MRCS</text>
 <text x="38.1" y="1.905" size="1.778" layer="25" rot="R90">DABSC-1</text>
-<text x="38.1" y="38.735" size="1.4224" layer="25" font="vector" rot="R90">V 1.5</text>
-<text x="13.335" y="42.545" size="1.016" layer="25">+5</text>
-<text x="33.655" y="42.545" size="1.016" layer="25">Gnd</text>
+<text x="38.1" y="41.275" size="1.778" layer="25" rot="R90">V 1.5</text>
+<text x="14.605" y="41.275" size="1.016" layer="25">+5</text>
+<text x="32.385" y="41.275" size="1.016" layer="25">Gnd</text>
 <text x="19.685" y="38.735" size="1.016" layer="25">ED EH WD WH</text>
 <text x="17.145" y="8.89" size="1.016" layer="25">EG EY  ER  WG WY WR</text>
 </plain>
@@ -1400,49 +1400,6 @@ Based on the following sources:
 </package>
 </packages>
 </library>
-<library name="MRCSLogoTop">
-<description>Model Railroad Control Systems LOGO</description>
-<packages>
-<package name="MRCSLOGOTOP">
-<description>Model Railroad Control Systems LOGO</description>
-<wire x1="0.762" y1="0.508" x2="1.27" y2="0.508" width="0.3048" layer="51"/>
-<wire x1="1.27" y1="0.508" x2="1.778" y2="0.508" width="0.3048" layer="51"/>
-<wire x1="1.27" y1="4.826" x2="2.159" y2="3.937" width="0.3048" layer="51"/>
-<wire x1="1.27" y1="5.08" x2="1.27" y2="4.826" width="0.127" layer="51"/>
-<wire x1="1.27" y1="4.826" x2="1.27" y2="3.175" width="0.127" layer="51"/>
-<wire x1="1.27" y1="3.175" x2="1.27" y2="1.524" width="0.127" layer="51"/>
-<wire x1="1.27" y1="1.524" x2="1.27" y2="0.508" width="0.3048" layer="51"/>
-<wire x1="1.27" y1="3.175" x2="2.286" y2="3.175" width="0.3048" layer="51"/>
-<text x="2.54" y="4.191" size="1.016" layer="51">M</text>
-<text x="3.175" y="2.921" size="1.016" layer="51">R</text>
-<text x="3.81" y="1.651" size="1.016" layer="51">C</text>
-<text x="4.445" y="0.381" size="1.016" layer="51">S</text>
-<text x="5.334" y="0.635" size="0.6096" layer="51">ystems</text>
-<text x="4.699" y="1.905" size="0.6096" layer="51">ontrol</text>
-<text x="4.064" y="3.175" size="0.6096" layer="51">ailroad</text>
-<text x="3.683" y="4.445" size="0.6096" layer="51">odel</text>
-</package>
-</packages>
-</library>
-<library name="MRCS-prop65warningBtm">
-<packages>
-<package name="CA-PROP65WARNING">
-<description>State of California Proposition 65 Warning</description>
-<text x="7.62" y="0" size="0.6096" layer="52" font="vector" rot="MR0" align="center-left">   CALIFORNIA PROPOSITION 65 WARNING
-WARNING: This product contains chemicals
-known to the State of California to cause cancer
-and birth defects or other reproductive harm.
-California law requires this warning to be 
-given to customers in the State of California</text>
-<text x="7.62" y="0" size="0.6096" layer="52" font="vector" rot="MR0" align="center-left">   CALIFORNIA PROPOSITION 65 WARNING
-WARNING: This product contains chemicals
-known to the State of California to cause cancer
-and birth defects or other reproductive harm.
-California law requires this warning to be 
-given to customers in the State of California</text>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1636,54 +1593,35 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C2" library="resistor" package="C050-025X075" value=".01uf" x="4.445" y="34.925" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.794" y="31.496" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="7.239" y="31.496" size="1.27" layer="27" ratio="10" rot="R90"/>
-</element>
-<element name="C3" library="resistor" package="C050-025X075" value=".01uf" x="4.445" y="15.875" smashed="yes" rot="R270">
-<attribute name="NAME" x="6.096" y="19.304" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="1.651" y="19.304" size="1.27" layer="27" ratio="10" rot="R270"/>
-</element>
-<element name="IC1" library="74xx-us" package="DIL14" value="74LS00N" x="18.415" y="31.75" smashed="yes">
-<attribute name="NAME" x="9.144" y="28.702" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="11.684" y="31.115" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="IC2" library="74xx-us" package="DIL14" value="7407N" x="18.415" y="17.78" smashed="yes">
-<attribute name="NAME" x="9.144" y="14.732" size="1.27" layer="25" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="11.684" y="17.145" size="1.27" layer="27" ratio="10"/>
-</element>
-<element name="C1" library="SPCoast" package="E2-5" value="10uF" x="4.445" y="26.035" smashed="yes" rot="R270">
-<attribute name="NAME" x="5.461" y="23.495" size="1.27" layer="25" ratio="10" rot="R270"/>
-<attribute name="VALUE" x="2.286" y="23.495" size="1.27" layer="27" ratio="10" rot="R270"/>
-</element>
-<element name="U$1" library="holes" package="2,8" value="" x="5.08" y="43.18" smashed="yes"/>
-<element name="U$2" library="holes" package="2,8" value="" x="43.18" y="43.18" smashed="yes"/>
-<element name="U$3" library="holes" package="2,8" value="" x="5.08" y="5.08" smashed="yes"/>
-<element name="U$4" library="holes" package="2,8" value="" x="43.18" y="5.08" smashed="yes"/>
+<element name="C2" library="resistor" package="C050-025X075" value=".01uf" x="4.445" y="34.925" rot="R90"/>
+<element name="C3" library="resistor" package="C050-025X075" value=".01uf" x="4.445" y="15.875" rot="R270"/>
+<element name="IC1" library="74xx-us" package="DIL14" value="74LS00N" x="18.415" y="31.75"/>
+<element name="IC2" library="74xx-us" package="DIL14" value="7407N" x="18.415" y="17.78"/>
+<element name="C1" library="SPCoast" package="E2-5" value="10uF" x="4.445" y="26.035" rot="R270"/>
+<element name="U$1" library="holes" package="2,8" value="" x="5.08" y="43.18"/>
+<element name="U$2" library="holes" package="2,8" value="" x="43.18" y="43.18"/>
+<element name="U$3" library="holes" package="2,8" value="" x="5.08" y="5.08"/>
+<element name="U$4" library="holes" package="2,8" value="" x="43.18" y="5.08"/>
 <element name="X1" library="con-molex" package="22-23-2061" value="P1" x="24.13" y="43.18" smashed="yes">
-<attribute name="MF" value="MOLEX" x="24.13" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2061" x="24.13" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1462922" x="24.13" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="27C1933" x="24.13" y="43.18" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MOLEX" x="24.13" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="32.385" y="45.085" size="1.016" layer="27" ratio="10"/>
 </element>
 <element name="X2" library="con-molex" package="22-23-2061" value="P2" x="24.13" y="5.08" smashed="yes">
-<attribute name="MF" value="MOLEX" x="24.13" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="22-23-2061" x="24.13" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1462922" x="24.13" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="27C1933" x="24.13" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="MOLEX" x="24.13" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="32.385" y="3.175" size="1.016" layer="27" ratio="10"/>
 </element>
-<element name="RN1" library="resistor-dil" package="DIL14" value="1K" x="38.1" y="26.035" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="38.1" y="26.035" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="38.1" y="26.035" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
-<attribute name="NAME" x="37.592" y="36.576" size="1.27" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="38.1" y="26.035" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
+<element name="RN1" library="resistor-dil" package="DIL14" value="1K" x="38.1" y="26.035" rot="R270">
 <attribute name="OC_NEWARK" value="unknown" x="38.1" y="26.035" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
-<attribute name="VALUE" x="37.465" y="32.766" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="MF" value="" x="38.1" y="26.035" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="38.1" y="26.035" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
+<attribute name="MPN" value="" x="38.1" y="26.035" size="1.778" layer="27" font="vector" ratio="10" rot="R270" display="off"/>
 </element>
-<element name="U$5" library="MRCSLogoTop" package="MRCSLOGOTOP" value="" x="7.62" y="2.54"/>
-<element name="U$6" library="MRCS-prop65warningBtm" package="CA-PROP65WARNING" value="" x="27.94" y="10.16"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -1824,9 +1762,9 @@ design rules under a new name.</description>
 <signal name="N$5">
 <contactref element="IC2" pad="4"/>
 <contactref element="RN1" pad="2"/>
-<wire x1="18.415" y1="13.97" x2="18.415" y2="14.605" width="0.3048" layer="1"/>
-<wire x1="18.415" y1="14.605" x2="21.59" y2="17.78" width="0.3048" layer="1"/>
-<wire x1="21.59" y1="17.78" x2="29.845" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="18.415" y1="13.97" x2="18.415" y2="15.24" width="0.3048" layer="1"/>
+<wire x1="18.415" y1="15.24" x2="20.955" y2="17.78" width="0.3048" layer="1"/>
+<wire x1="20.955" y1="17.78" x2="29.845" y2="17.78" width="0.3048" layer="1"/>
 <wire x1="29.845" y1="17.78" x2="30.48" y2="18.415" width="0.3048" layer="1"/>
 <wire x1="30.48" y1="18.415" x2="30.48" y2="29.845" width="0.3048" layer="1"/>
 <wire x1="30.48" y1="29.845" x2="31.75" y2="31.115" width="0.3048" layer="1"/>
@@ -1878,6 +1816,7 @@ design rules under a new name.</description>
 <signal name="N$13">
 <contactref element="IC2" pad="12"/>
 <contactref element="RN1" pad="4"/>
+<wire x1="33.655" y1="25.4" x2="34.29" y2="26.035" width="0.3048" layer="1"/>
 <wire x1="15.875" y1="21.59" x2="15.875" y2="22.86" width="0.3048" layer="16"/>
 <wire x1="15.875" y1="22.86" x2="19.05" y2="26.035" width="0.3048" layer="16"/>
 <wire x1="19.05" y1="26.035" x2="34.29" y2="26.035" width="0.3048" layer="16"/>
@@ -1929,29 +1868,13 @@ design rules under a new name.</description>
 <wire x1="38.1" y1="22.225" x2="41.91" y2="26.035" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$3">
-<contactref element="IC2" pad="2"/>
 <contactref element="RN1" pad="1"/>
-<wire x1="34.29" y1="33.655" x2="31.115" y2="33.655" width="0.3048" layer="1"/>
-<wire x1="31.115" y1="33.655" x2="29.21" y2="31.75" width="0.3048" layer="1"/>
-<wire x1="29.21" y1="19.685" x2="28.575" y2="19.05" width="0.3048" layer="1"/>
-<wire x1="23.578425" y1="19.05" x2="23.070425" y2="18.542" width="0.3048" layer="1"/>
-<wire x1="23.070425" y1="18.542" x2="20.76275625" y2="18.542" width="0.3048" layer="1"/>
-<wire x1="20.76275625" y1="18.542" x2="17.0815" y2="14.86074375" width="0.3048" layer="1"/>
-<wire x1="29.21" y1="31.75" x2="29.21" y2="19.685" width="0.3048" layer="1"/>
-<wire x1="28.575" y1="19.05" x2="23.578425" y2="19.05" width="0.3048" layer="1"/>
-<wire x1="17.0815" y1="12.0015" x2="15.875" y2="10.795" width="0.3048" layer="1"/>
-<wire x1="17.0815" y1="14.86074375" x2="17.0815" y2="12.0015" width="0.3048" layer="1"/>
-<wire x1="15.875" y1="10.795" x2="14.605" y2="10.795" width="0.3048" layer="1"/>
-<wire x1="13.335" y1="13.97" x2="13.335" y2="12.065" width="0.3048" layer="1"/>
-<wire x1="13.335" y1="12.065" x2="14.605" y2="10.795" width="0.3048" layer="1"/>
 </signal>
 </signals>
+<errors>
+<approved hash="19,1,18a095e076caa664"/>
+<approved hash="19,16,4898088deed634bd"/>
+</errors>
 </board>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
