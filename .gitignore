@@ -1,2 +1,20 @@
 
 *.b#1
+*.GBL
+*.GBO
+*.GBS
+*.GML
+*.GTL
+*.GTO
+*.GTP
+*.GTS
+Drury-DABSC-Array.TXT
+*.s#1
+*.s#2
+*.scr
+*.dri
+*.gpi
+*.b#2
+*.b#3
+*.b#4
+*.b#6

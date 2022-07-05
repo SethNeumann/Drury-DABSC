@@ -4786,7 +4786,7 @@ to provide proper LED brightness.
 1k ohms suggested as starting point.</text>
 <text x="48.26" y="132.08" size="1.778" layer="91">+5v</text>
 <text x="48.26" y="119.38" size="1.778" layer="91">Gnd</text>
-<text x="215.9" y="88.9" size="2.54" layer="97">use C2/3 or C4/5 this allows for different lead spacings</text>
+<text x="43.18" y="48.26" size="2.54" layer="97">use C2/3 or C4/5 this allows for different lead spacings</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -5168,6 +5168,10 @@ to provide proper LED brightness.
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,231.14,152.4,RN1G,1,,,,"/>
+<approved hash="101,1,241.3,152.4,RN1G,2,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
