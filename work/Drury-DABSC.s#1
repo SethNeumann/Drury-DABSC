@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="7.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="50" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -4787,6 +4786,7 @@ to provide proper LED brightness.
 1k ohms suggested as starting point.</text>
 <text x="48.26" y="132.08" size="1.778" layer="91">+5v</text>
 <text x="48.26" y="119.38" size="1.778" layer="91">Gnd</text>
+<text x="215.9" y="88.9" size="2.54" layer="97">use C2/3 or C4/5 this allows for different lead spacings</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -5000,9 +5000,9 @@ to provide proper LED brightness.
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="226.06" y1="48.26" x2="226.06" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="53.34" x2="251.46" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="48.26" x2="238.76" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="48.26" x2="238.76" y2="48.26" width="0.3048" layer="91"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="238.76" y1="48.26" x2="226.06" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="48.26" x2="226.06" y2="48.26" width="0.3048" layer="91"/>
 <wire x1="238.76" y1="53.34" x2="238.76" y2="48.26" width="0.1524" layer="91"/>
 <junction x="238.76" y="48.26"/>
 <wire x1="226.06" y1="53.34" x2="226.06" y2="48.26" width="0.1524" layer="91"/>
@@ -5050,9 +5050,9 @@ to provide proper LED brightness.
 <wire x1="226.06" y1="68.58" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <wire x1="251.46" y1="60.96" x2="251.46" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="66.04" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="66.04" x2="238.76" y2="66.04" width="0.3048" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="238.76" y1="66.04" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="66.04" x2="226.06" y2="66.04" width="0.3048" layer="91"/>
 <wire x1="238.76" y1="60.96" x2="238.76" y2="66.04" width="0.1524" layer="91"/>
 <junction x="238.76" y="66.04"/>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
@@ -5168,6 +5168,10 @@ to provide proper LED brightness.
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,231.14,152.4,RN1G,1,,,,"/>
+<approved hash="101,1,241.3,152.4,RN1G,2,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
